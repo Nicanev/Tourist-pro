@@ -610,11 +610,60 @@ body {
             cursor: pointer;
             font-weight: bold;
             font-size: 14px;
+            transition: .3s all;
         }
         button:hover {
             background: rgba(4, 195, 255, 0.75);
+            transition: .3s all;
         }
         margin: 0 auto;
         margin-top:20px;
+    }
+}
+.search {
+    width: 100%;
+    &__title {
+        font-weight: bold;
+        font-size: 24px;
+        margin-top: 30px;
+        margin-bottom:40px;
+    }
+
+    &__table {
+        table {
+            border-collapse: collapse;
+            
+            
+        }
+        th:first-child {
+            padding-right: 12px;
+           }
+           td {
+               padding: 10px;
+           }
+           tr {
+            transition: .2s all;
+           }
+           tr:hover {
+            background: rgba(0, 255, 255, 0.24);
+            border-left:3px solid blue;
+            transition: .3s all;
+           }
+          
+        button {
+            background:#10E2FF;
+            border: none;
+            height: 35px;
+            color: white;
+            font-weight: bold;
+            border-radius: 4px;
+            cursor:pointer;
+            font-size: 16px;
+            transition: .3s all;
+        }
+        button:hover {
+            transition: .3s all;
+            background: rgba(4, 195, 255, 0.75);
+        }
     }
 }

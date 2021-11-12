@@ -706,8 +706,66 @@ body {
   cursor: pointer;
   font-weight: bold;
   font-size: 14px;
+  -webkit-transition: .3s all;
+  transition: .3s all;
 }
 
 .booking__btn button:hover {
+  background: rgba(4, 195, 255, 0.75);
+  -webkit-transition: .3s all;
+  transition: .3s all;
+}
+
+.search {
+  width: 100%;
+}
+
+.search__title {
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.search__table table {
+  border-collapse: collapse;
+}
+
+.search__table th:first-child {
+  padding-right: 12px;
+}
+
+.search__table td {
+  padding: 10px;
+}
+
+.search__table tr {
+  -webkit-transition: .2s all;
+  transition: .2s all;
+}
+
+.search__table tr:hover {
+  background: rgba(0, 255, 255, 0.24);
+  border-left: 3px solid blue;
+  -webkit-transition: .3s all;
+  transition: .3s all;
+}
+
+.search__table button {
+  background: #10E2FF;
+  border: none;
+  height: 35px;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-transition: .3s all;
+  transition: .3s all;
+}
+
+.search__table button:hover {
+  -webkit-transition: .3s all;
+  transition: .3s all;
   background: rgba(4, 195, 255, 0.75);
 }
