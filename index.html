@@ -43,13 +43,13 @@
         <div class="preview">
           <div class="preview__title">Исполнить мечты просто!</div>
           <div class="preview__arrow">
-            <a href="#">
+            <a href="#region">
               <img src="img/arrow_down.svg" alt="" />
             </a>
           </div>
           <div class="preview__scroll">Листайте дальше</div>
         </div>
-        <div class="region">
+        <div class="region" id="region">
           <div class="main__block">
             <div class="region">
               <div class="container">
@@ -61,7 +61,7 @@
                       <select name="country" id="country">
                         <option value="t1" selected>Регион</option>
                       </select>
-                      <button>Выбрать</button>
+                      <a href="#date"><button>Выбрать</button></a>
                     </div>
                     <div class="region__subtitle">
                       Выберите регион, а мы подберем для вас подходящий
@@ -78,7 +78,7 @@
             </div>
           </div>
         </div>
-        <div class="date">
+        <div class="date" id="date">
           <div class="container">
             <div class="date__content">
               <div class="date__left">
@@ -86,7 +86,7 @@
               <div class="date__title">Выберите дату</div>
                 <div class="date__input">
                   <input type="date" name="date" id="date">
-                  <button>Выбрать</button>
+                  <a href="#participants"><button>Выбрать</button></a>
                 </div>
                 <div class="date__subtitle">
                   Выберите дату когда вы  будете готовы отправиться
@@ -98,7 +98,7 @@
             </div>
           </div>
         </div>
-        <div class="participants">
+        <div class="participants" id="participants">
           <div class="container">
             <div class="participants__content">
               <div class="participants__left">
@@ -141,7 +141,7 @@
                 <li>Навигация</li>
                 <li><a href="#">О нас</a></li>
                 <li><a href="#">Акции</a></li>
-                <li><a href="#">Бронирования</a></li>
+                <li><a href="booking.html">Бронирования</a></li>
                 <li><a href="#">Услуги</a></li>
               </ul>
             </div>
