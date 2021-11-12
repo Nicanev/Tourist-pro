@@ -178,10 +178,12 @@ body {
   border: none;
   color: white;
   font-size: 18px;
+  margin-left: 5px;
 }
 
 .region__list button:hover {
   cursor: pointer;
+  background: rgba(4, 195, 255, 0.75);
 }
 
 .region__subtitle {
@@ -243,10 +245,12 @@ body {
   border: none;
   color: white;
   font-size: 18px;
+  margin-left: 5px;
 }
 
 .date__input button:hover {
   cursor: pointer;
+  background: rgba(4, 195, 255, 0.75);
 }
 
 .date__subtitle {
@@ -309,10 +313,12 @@ body {
   border: none;
   color: white;
   font-size: 18px;
+  margin-left: 5px;
 }
 
 .participants__input button:hover {
   cursor: pointer;
+  background: rgba(4, 195, 255, 0.75);
 }
 
 .participants__subtitle {

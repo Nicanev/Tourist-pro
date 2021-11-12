@@ -148,9 +148,11 @@ body {
             border: none;
             color: white;
             font-size: 18px;
+            margin-left: 5px;
         }
         button:hover {
             cursor: pointer;
+            background: rgba(4, 195, 255, 0.75);
         }
     }
     &__subtitle {
@@ -210,9 +212,11 @@ body {
             border: none;
             color: white;
             font-size: 18px;
+            margin-left: 5px;
         }
         button:hover {
             cursor: pointer;
+            background: rgba(4, 195, 255, 0.75);
         }
     }
 
@@ -265,6 +269,7 @@ body {
         height: 44px;
         font-size: 14px;
         color: #665656;
+        
         }
     
     button {
@@ -275,9 +280,12 @@ body {
         border: none;
         color: white;
         font-size: 18px;
+        margin-left: 5px;
+        
     }
     button:hover {
         cursor: pointer;
+        background: rgba(4, 195, 255, 0.75);
     }
     }
 
